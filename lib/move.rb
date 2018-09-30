@@ -26,3 +26,4 @@ def position_taken?(index)
   else
     puts "The space is empty"
   end
+end
