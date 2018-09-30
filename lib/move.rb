@@ -17,3 +17,13 @@ def move(board, index, character = "X")
   # puts "the character is #{character}"
   board[index] = character
 end
+
+def position_taken?(index)
+  if board[index] = "X"
+    puts "The space is taken"
+  elsif board[index] = "O"
+    puts "The space is taken"
+  else
+    puts "The space is empty"
+  end
+end
